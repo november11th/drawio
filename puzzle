@@ -1,1 +1,205 @@
-<mxfile host="app.diagrams.net" modified="2021-02-24T10:41:28.886Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" version="14.4.2" etag="K_cZSxjCwhNzvN0-G2_H" type="github"><diagram id="DKjvtwfc1N3D9l5afDvQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-24T10:59:45.688Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="8DqbRrJ0YkSVQQZO2-lr" version="14.4.2" type="github">
+  <diagram id="DKjvtwfc1N3D9l5afDvQ" name="Page-1">
+    <mxGraphModel dx="2350" dy="1312" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SOborloBTnBpNsLYAax6-2" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 15px;&quot;&gt;&lt;ul style=&quot;font-size: 15px;&quot;&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;설계안#1 : 하나의 서비스로 통합하여 제공&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="SOborloBTnBpNsLYAax6-4" target="SOborloBTnBpNsLYAax6-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-4" value="Open API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="270" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="SOborloBTnBpNsLYAax6-6" target="SOborloBTnBpNsLYAax6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-6" value="외부 Client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="SOborloBTnBpNsLYAax6-8" target="SOborloBTnBpNsLYAax6-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-8" value="DIaaS Backend&lt;br style=&quot;font-size: 15px;&quot;&gt;(데이터 + 메타 + Puzzle 페이지)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="480" y="130" width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="SOborloBTnBpNsLYAax6-10" target="SOborloBTnBpNsLYAax6-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-10" value="Puzzle Client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="80" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-11" value="&lt;ul&gt;&lt;li&gt;설계안#3 : 데이터(메타 포함) + 퍼즐 백엔드(퍼즐 웹페이지 제공을 위한 데이터 가공)&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="540" width="570" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="SOborloBTnBpNsLYAax6-13" target="SOborloBTnBpNsLYAax6-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-13" value="Open API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="280" y="619.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="SOborloBTnBpNsLYAax6-15" target="SOborloBTnBpNsLYAax6-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-15" value="외부 Client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="90" y="619.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="SOborloBTnBpNsLYAax6-17" target="SOborloBTnBpNsLYAax6-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-17" value="Data Service&lt;br style=&quot;font-size: 13px;&quot;&gt;(Data + Meta)&lt;br style=&quot;font-size: 13px;&quot;&gt;* JPA를 활용하여 ORM으로 Data 관리" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="485" y="612" width="240" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="SOborloBTnBpNsLYAax6-19" target="SOborloBTnBpNsLYAax6-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-19" value="Puzzle Client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="90" y="737" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="SOborloBTnBpNsLYAax6-21" target="SOborloBTnBpNsLYAax6-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-21" value="Puzzle Backend&lt;br style=&quot;font-size: 13px;&quot;&gt;* 퍼즐 웹페이지에 필요한 데이터를&lt;br style=&quot;font-size: 13px;&quot;&gt;Data Service로 HTTP 호출한 후 가공" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="485" y="729.5" width="240" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-22" value="&lt;ul&gt;&lt;li&gt;설계안#4 : 데이터+메타+퍼즐 백엔드 구성&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="810" width="360" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="Open API 앞단에서 제공하는 API의 URI를 제한할 수 있다고 가정한다.&lt;br&gt;-&amp;gt; 데이터 서비스는 컨텐츠(API)/대시보드 O,X 를 구분하지 않고 모두 제공&lt;br&gt;&amp;nbsp; &amp;nbsp; &#39;3. 경로 혼잡도&#39;와 같이 컨텐츠(API)로 제공하지 않는 항목은 Open API에서 API로 등록하지 않는다.&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; * Open API 참고 : https://openapi.sk.com/resource/apidoc/indexView" link="https://openapi.sk.com/resource/apidoc/indexView" id="SOborloBTnBpNsLYAax6-23">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+            <mxGeometry x="430" y="20" width="640" height="90" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="SOborloBTnBpNsLYAax6-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="SOborloBTnBpNsLYAax6-25" target="SOborloBTnBpNsLYAax6-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-25" value="Open API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="280" y="877.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="SOborloBTnBpNsLYAax6-27" target="SOborloBTnBpNsLYAax6-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-27" value="외부 Client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="90" y="877.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="894.5" as="sourcePoint" />
+            <mxPoint x="810" y="894.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-29" value="Data Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="485" y="870" width="125" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="SOborloBTnBpNsLYAax6-31" target="SOborloBTnBpNsLYAax6-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-31" value="Puzzle Client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1047.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="SOborloBTnBpNsLYAax6-34" target="SOborloBTnBpNsLYAax6-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="SOborloBTnBpNsLYAax6-34" target="SOborloBTnBpNsLYAax6-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="1020" />
+              <mxPoint x="693" y="1020" />
+              <mxPoint x="693" y="1005" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-34" value="Puzzle Backend&lt;br style=&quot;font-size: 13px;&quot;&gt;* 퍼즐 웹페이지에 필요한 데이터를&lt;br style=&quot;font-size: 13px;&quot;&gt;Data/Meta로 HTTP 호출한 후 가공 및 조합" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="485" y="1040" width="240" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SOborloBTnBpNsLYAax6-35" target="SOborloBTnBpNsLYAax6-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="875" y="965" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-35" value="Meta Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="630" y="920" width="125" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-36" value="RDS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="800" y="172.5" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-37" value="RDS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="800" y="612" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-38" value="RDS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="810" y="870" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="SOborloBTnBpNsLYAax6-40" target="SOborloBTnBpNsLYAax6-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-40" value="Open API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="280" y="357.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="SOborloBTnBpNsLYAax6-42" target="SOborloBTnBpNsLYAax6-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-42" value="외부 Client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="90" y="357.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="SOborloBTnBpNsLYAax6-44" target="SOborloBTnBpNsLYAax6-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-44" value="Data Service&lt;br style=&quot;font-size: 13px;&quot;&gt;(Data + Meta)&lt;br style=&quot;font-size: 13px;&quot;&gt;* JPA를 활용하여 ORM으로 Data 관리" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="485" y="350" width="240" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="SOborloBTnBpNsLYAax6-46" target="SOborloBTnBpNsLYAax6-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-46" value="Puzzle Client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="90" y="475" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="SOborloBTnBpNsLYAax6-48" target="SOborloBTnBpNsLYAax6-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-48" value="Puzzle Backend&lt;br style=&quot;font-size: 13px;&quot;&gt;*MyBatis를 활용하여 SQL로 &lt;br style=&quot;font-size: 13px;&quot;&gt;필요한 데이터 양식 직접 쿼리" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="485" y="467.5" width="240" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-49" value="RDS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="800" y="350" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-50" value="&lt;ul style=&quot;font-size: 15px&quot;&gt;&lt;li style=&quot;font-size: 15px&quot;&gt;설계안#2 : 데이터, 퍼즐 구분하여 퍼즐 웹사이트를 위한 데이터 호출을 Puzzle Backend에서 직접 처리&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="820" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-51" value="Private Subnet" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="80" y="20" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-52" value="Public Subnet" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="240" y="20" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=30;strokeWidth=4;shape=flexArrow;fillColor=#33001A;" edge="1" parent="1" source="SOborloBTnBpNsLYAax6-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1016" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-60" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;helvetica&quot; style=&quot;font-size: 30px&quot;&gt;Open API 에 &lt;br&gt;메타 제공이 필요한 경우&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=30;align=center;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1156" y="650" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=30;strokeWidth=4;shape=flexArrow;fillColor=#33001A;" edge="1" parent="1" source="SOborloBTnBpNsLYAax6-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="987.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-63" value="&lt;div&gt;&lt;font face=&quot;helvetica&quot; style=&quot;font-size: 30px&quot;&gt;Open API 에 &lt;br&gt;메타 제공이 필요없는 경우&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=30;align=center;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="937.5" width="360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=30;strokeWidth=4;shape=flexArrow;fillColor=#33001A;" edge="1" parent="1" source="SOborloBTnBpNsLYAax6-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1016" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOborloBTnBpNsLYAax6-67" value="&lt;font face=&quot;helvetica&quot; style=&quot;font-size: 22px;&quot;&gt;기존 MarketEye 구현 방식으로&lt;br style=&quot;font-size: 22px;&quot;&gt;RDS에서 페이지에 필요한 데이터 가공&lt;br style=&quot;font-size: 22px;&quot;&gt;(조인 쿼리 등을 적극 활용)&amp;nbsp;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=22;align=center;spacingLeft=3;" vertex="1" parent="1">
+          <mxGeometry x="1156" y="390" width="364" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
