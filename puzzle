@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-24T10:59:45.688Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="8DqbRrJ0YkSVQQZO2-lr" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-24T11:04:37.738Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="JKlBsRB8GDHfyMjSE0LB" version="14.4.2" type="github">
   <diagram id="DKjvtwfc1N3D9l5afDvQ" name="Page-1">
     <mxGraphModel dx="2350" dy="1312" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,12 +64,12 @@
         <mxCell id="SOborloBTnBpNsLYAax6-21" value="Puzzle Backend&lt;br style=&quot;font-size: 13px;&quot;&gt;* 퍼즐 웹페이지에 필요한 데이터를&lt;br style=&quot;font-size: 13px;&quot;&gt;Data Service로 HTTP 호출한 후 가공" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="485" y="729.5" width="240" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="SOborloBTnBpNsLYAax6-22" value="&lt;ul&gt;&lt;li&gt;설계안#4 : 데이터+메타+퍼즐 백엔드 구성&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="SOborloBTnBpNsLYAax6-22" value="&lt;ul&gt;&lt;li&gt;설계안#4 : 데이터+메타+퍼즐 백엔드&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="40" y="810" width="360" height="60" as="geometry" />
         </mxCell>
-        <UserObject label="Open API 앞단에서 제공하는 API의 URI를 제한할 수 있다고 가정한다.&lt;br&gt;-&amp;gt; 데이터 서비스는 컨텐츠(API)/대시보드 O,X 를 구분하지 않고 모두 제공&lt;br&gt;&amp;nbsp; &amp;nbsp; &#39;3. 경로 혼잡도&#39;와 같이 컨텐츠(API)로 제공하지 않는 항목은 Open API에서 API로 등록하지 않는다.&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; * Open API 참고 : https://openapi.sk.com/resource/apidoc/indexView" link="https://openapi.sk.com/resource/apidoc/indexView" id="SOborloBTnBpNsLYAax6-23">
-          <mxCell style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-            <mxGeometry x="430" y="20" width="640" height="90" as="geometry" />
+        <UserObject label="Open API에서 제공하는 API의 URI를 제한할 수 있다고 가정한다.&lt;br&gt;e.g. Data Service는 컨텐츠(API)/대시보드 O,X 를 구분하지 않고 모두 제공&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&#39;3. 경로 혼잡도&#39;와 같이 컨텐츠(API)로 제공하지 않는 항목은 Open API에서 API로 등록하지 않는다.&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;* Open API 참고 : https://openapi.sk.com/resource/apidoc/indexView" link="https://openapi.sk.com/resource/apidoc/indexView" id="SOborloBTnBpNsLYAax6-23">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#000000;spacingLeft=5;" vertex="1" parent="1">
+            <mxGeometry x="970" y="20" width="640" height="90" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="SOborloBTnBpNsLYAax6-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="SOborloBTnBpNsLYAax6-25" target="SOborloBTnBpNsLYAax6-29">
@@ -166,7 +166,7 @@
         <mxCell id="SOborloBTnBpNsLYAax6-49" value="RDS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="800" y="350" width="130" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="SOborloBTnBpNsLYAax6-50" value="&lt;ul style=&quot;font-size: 15px&quot;&gt;&lt;li style=&quot;font-size: 15px&quot;&gt;설계안#2 : 데이터, 퍼즐 구분하여 퍼즐 웹사이트를 위한 데이터 호출을 Puzzle Backend에서 직접 처리&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="SOborloBTnBpNsLYAax6-50" value="&lt;ul style=&quot;font-size: 15px&quot;&gt;&lt;li style=&quot;font-size: 15px&quot;&gt;설계안#2 : 데이터, 퍼즐 백엔드를 구분하고 퍼즐 웹사이트를 위한 데이터 호출을 Puzzle Backend에서 직접 처리&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="40" y="290" width="820" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SOborloBTnBpNsLYAax6-51" value="Private Subnet" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
